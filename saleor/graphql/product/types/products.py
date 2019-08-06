@@ -117,7 +117,7 @@ class BasePricingInfo(graphene.ObjectType):
     available = graphene.Boolean(
         description="Whether it is in stock and visible or not.",
         deprecation_reason=(
-            "This has been moved to the parent type as 'is_available'."
+            "This has been moved to the parent type as 'isAvailable'."
         ),
     )
     on_sale = graphene.Boolean(description="Whether it is in sale or not.")
